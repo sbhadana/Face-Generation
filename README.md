@@ -19,13 +19,13 @@ Please go though this [doc](https://conda.io/projects/conda/en/latest/user-guide
 After that create a environment using following command
 
 ```
-conda create --name dcgan
+conda create --name face
 ```
 
 Then activate the environment using following command
 
 ```
-activate dcgan
+activate face
 ```
 
 #### Git and version control
@@ -39,7 +39,7 @@ conda install git
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
 git clone https://github.com/sbhadana/Face-Generation.git
-cd TV-Script-Generation
+
 ```
 
 2. Install PyTorch and torchvision; this should install the latest version of PyTorch.
